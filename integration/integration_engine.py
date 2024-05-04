@@ -19,9 +19,3 @@ class IntegrationEngine:
         Shuts down the integration engine and releases resources.
         """
         pass
-
-if __name__ == "__main__":
-    engine = IntegrationEngine()
-    engine.initialize_modules()
-    engine.run()
-    engine.shutdown()
