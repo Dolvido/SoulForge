@@ -1,4 +1,4 @@
-# SoulForge
+# SoulForge Framework
 1. Data Stream Interface:
 Define a clear interface for capturing and processing incoming data streams.
 Include methods for data ingestion, transformation, and storage.
