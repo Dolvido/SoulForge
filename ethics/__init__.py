@@ -1,9 +1,13 @@
 """
-Ethics Module for SoulForge Framework
+Ethics Module
+=============
 
-This module addresses ethical concerns and implements privacy safeguards for the SoulForge framework.
+This module deals with ethical considerations and policies within the SoulForge framework.
+
+Submodules:
+    - privacy_policy: Defines the privacy policy of the framework.
 """
 
 from .privacy_policy import PrivacyPolicy
 
-__all__ = ['PrivacyPolicy']
+

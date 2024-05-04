@@ -1,19 +1,8 @@
 # soul_model/__init__.py
 
-# Import individual modules
-from .soul_object import SoulObject
-from .emotions import Emotions
-from .memories import Memories
-from .personality import Personality
-from .beliefs import Beliefs
-from .consciousness import Consciousness
+from .belief_module import BeliefModule
+from .consciousness_module import ConsciousnessModule
+from .emotional_module import EmotionalModule
+from .memory_module import MemoryModule
+from .personality_module import PersonalityModule
 
-# Define __all__ to specify exported symbols
-__all__ = [
-    'SoulObject',
-    'Emotions',
-    'Memories',
-    'Personality',
-    'Beliefs',
-    'Consciousness'
-]
